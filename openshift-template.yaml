@@ -25,7 +25,7 @@ objects:
       dockerStrategy:
         from:
           kind: ImageStreamTag
-          name: eclipse-mosquitto:1.4.8
+          name: eclipse-mosquitto:1.4.12
       type: Docker
     triggers:
     - github:
